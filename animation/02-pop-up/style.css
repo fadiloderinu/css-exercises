@@ -52,12 +52,30 @@ button {
   opacity: 0%;
 }
 
-.popup-modal.show {
+.popup-modal{
   opacity: 100%;
   pointer-events: all;
+  transform: translate(-30% -50%);
+  transition: transform 1s ease;
 }
 
 .backdrop.show {
   opacity: 30%;
 }
+
+/*solution*/
+.popup-modal{
+  transform: translate(-30% -50%);
+  transition: transform 1s ease;
+}
+
+.popup-modal show{
+  transform: translate(50% 50%);
+}
+
+
+@keyframes drop{
+
+}
+
 

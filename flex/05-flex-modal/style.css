@@ -64,3 +64,60 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+/*
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.container-1 .icon{
+  /*display: block;
+}
+
+.header, .text, .continue, .cancel{
+  display: inline;
+}
+
+.container-2{
+  display: flex;
+  flex-direction: column;
+}
+*/
+
+.box {
+  display: flex;
+  /*align-items: stretch;*/
+  flex-direction: row;
+
+}
+
+.icon{
+  flex-shrink: 0;
+}
+
+.modal {
+  display: flex;
+  gap: 14px;
+  padding: 10px;
+}
+
+.header-close{
+  display: flex;
+  gap: 130px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.close-button{
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.text{
+  padding: 16px 0px;
+}
+
+
+

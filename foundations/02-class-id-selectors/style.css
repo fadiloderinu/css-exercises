@@ -1,0 +1,21 @@
+
+.odd{
+    background-color: rgba(243, 160, 127, 0.89);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#third-element{
+    font-size: 24px;
+}
+
+.even#second-element{
+    color: #00f;
+    font-size: 36px ;
+}
+
+#fourth-element{
+    background-color: #98f898;
+    font-size: 24px;
+    font-weight: bold;
+}
+
